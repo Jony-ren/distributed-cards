@@ -19,6 +19,8 @@ h1 {
   font-family: "Denk One", sans-serif;
   color: #623b0c;
   margin: 1rem;
+
+  flex-grow: 1;
 }
 
 h2 {
@@ -33,6 +35,7 @@ img {
 
 ol {
   padding: .5rem 1rem;
+  margin: 0;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -42,11 +45,12 @@ ol {
 p {
   font-family: georgia;
   font-size: 1rem;
-  margin: 1.5rem 0;
+  margin: 1.46rem 0;
+
+  flex-grow: 1;
 }
 
 li {
-  width: 29em;
   padding: 1rem 1.05rem;
 
   display: flex;
@@ -67,5 +71,5 @@ li a {
   border-radius: 8px;
   font-family: georgia;
 
-  padding: .4rem;
+  padding: .601rem;
 }
