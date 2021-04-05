@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia;
-  font-family: "Denk One", sans-serif;
   line-height: 1.5;
+
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-family: "Denk One", sans-serif;
+  font-family: "Denk One";
   color: #623b0c;
   margin: 1rem;
 
